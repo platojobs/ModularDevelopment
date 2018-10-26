@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78F744BA854EF14B44D4A95C /* libPods-ModularDAPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A4CDAB6FBAB0E7D8F20D89 /* libPods-ModularDAPP.a */; };
+		ABF26A812182FDEF007E3459 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF26A802182FDEF007E3459 /* AppDelegate.m */; };
+		ABF26A842182FDEF007E3459 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF26A832182FDEF007E3459 /* ViewController.m */; };
+		ABF26A872182FDEF007E3459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF26A852182FDEF007E3459 /* Main.storyboard */; };
+		ABF26A892182FDF5007E3459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF26A882182FDF5007E3459 /* Assets.xcassets */; };
+		ABF26A8C2182FDF5007E3459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF26A8A2182FDF5007E3459 /* LaunchScreen.storyboard */; };
+		ABF26A8F2182FDF5007E3459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF26A8E2182FDF5007E3459 /* main.m */; };
+		ABF26A992182FDF5007E3459 /* ModularDAPPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF26A982182FDF5007E3459 /* ModularDAPPTests.m */; };
+		ABF26AA42182FDF5007E3459 /* ModularDAPPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF26AA32182FDF5007E3459 /* ModularDAPPUITests.m */; };
+		ABF26AB42182FEF8007E3459 /* CTMediator+ModuleAActions.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF26AB32182FEF8007E3459 /* CTMediator+ModuleAActions.m */; };
+		ABF26ABC2182FF22007E3459 /* ModuleADetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF26AB72182FF22007E3459 /* ModuleADetailController.m */; };
+		ABF26ABD2182FF22007E3459 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF26ABA2182FF22007E3459 /* Target_A.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABF26A952182FDF5007E3459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF26A742182FDEF007E3459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF26A7B2182FDEF007E3459;
+			remoteInfo = ModularDAPP;
+		};
+		ABF26AA02182FDF5007E3459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABF26A742182FDEF007E3459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABF26A7B2182FDEF007E3459;
+			remoteInfo = ModularDAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43A4CDAB6FBAB0E7D8F20D89 /* libPods-ModularDAPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ModularDAPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4406039EBA30CE7FAD78F947 /* Pods-ModularDAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModularDAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModularDAPP/Pods-ModularDAPP.release.xcconfig"; sourceTree = "<group>"; };
+		4C3C01324E9F96FC2D5BFFC8 /* Pods-ModularDAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModularDAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModularDAPP/Pods-ModularDAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		ABF26A7C2182FDEF007E3459 /* ModularDAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModularDAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF26A7F2182FDEF007E3459 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABF26A802182FDEF007E3459 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABF26A822182FDEF007E3459 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABF26A832182FDEF007E3459 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABF26A862182FDEF007E3459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABF26A882182FDF5007E3459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABF26A8B2182FDF5007E3459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABF26A8D2182FDF5007E3459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF26A8E2182FDF5007E3459 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABF26A942182FDF5007E3459 /* ModularDAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularDAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF26A982182FDF5007E3459 /* ModularDAPPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModularDAPPTests.m; sourceTree = "<group>"; };
+		ABF26A9A2182FDF5007E3459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF26A9F2182FDF5007E3459 /* ModularDAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularDAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF26AA32182FDF5007E3459 /* ModularDAPPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModularDAPPUITests.m; sourceTree = "<group>"; };
+		ABF26AA52182FDF5007E3459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF26AB22182FEF8007E3459 /* CTMediator+ModuleAActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ModuleAActions.h"; sourceTree = "<group>"; };
+		ABF26AB32182FEF8007E3459 /* CTMediator+ModuleAActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ModuleAActions.m"; sourceTree = "<group>"; };
+		ABF26AB72182FF22007E3459 /* ModuleADetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleADetailController.m; sourceTree = "<group>"; };
+		ABF26AB82182FF22007E3459 /* ModuleADetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleADetailController.h; sourceTree = "<group>"; };
+		ABF26ABA2182FF22007E3459 /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		ABF26ABB2182FF22007E3459 /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF26A792182FDEF007E3459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F744BA854EF14B44D4A95C /* libPods-ModularDAPP.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF26A912182FDF5007E3459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF26A9C2182FDF5007E3459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77D8518558787EA324B4360D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43A4CDAB6FBAB0E7D8F20D89 /* libPods-ModularDAPP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABF26A732182FDEF007E3459 = {
+			isa = PBXGroup;
+			children = (
+				ABF26AB52182FF22007E3459 /* ComponentA */,
+				ABF26AB12182FEF8007E3459 /* ModularA(维护) */,
+				ABF26A7E2182FDEF007E3459 /* ModularDAPP */,
+				ABF26A972182FDF5007E3459 /* ModularDAPPTests */,
+				ABF26AA22182FDF5007E3459 /* ModularDAPPUITests */,
+				ABF26A7D2182FDEF007E3459 /* Products */,
+				CB21FE19C4E732D2B4F87D71 /* Pods */,
+				77D8518558787EA324B4360D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF26A7D2182FDEF007E3459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF26A7C2182FDEF007E3459 /* ModularDAPP.app */,
+				ABF26A942182FDF5007E3459 /* ModularDAPPTests.xctest */,
+				ABF26A9F2182FDF5007E3459 /* ModularDAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF26A7E2182FDEF007E3459 /* ModularDAPP */ = {
+			isa = PBXGroup;
+			children = (
+				ABF26A7F2182FDEF007E3459 /* AppDelegate.h */,
+				ABF26A802182FDEF007E3459 /* AppDelegate.m */,
+				ABF26A822182FDEF007E3459 /* ViewController.h */,
+				ABF26A832182FDEF007E3459 /* ViewController.m */,
+				ABF26A852182FDEF007E3459 /* Main.storyboard */,
+				ABF26A882182FDF5007E3459 /* Assets.xcassets */,
+				ABF26A8A2182FDF5007E3459 /* LaunchScreen.storyboard */,
+				ABF26A8D2182FDF5007E3459 /* Info.plist */,
+				ABF26A8E2182FDF5007E3459 /* main.m */,
+			);
+			path = ModularDAPP;
+			sourceTree = "<group>";
+		};
+		ABF26A972182FDF5007E3459 /* ModularDAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF26A982182FDF5007E3459 /* ModularDAPPTests.m */,
+				ABF26A9A2182FDF5007E3459 /* Info.plist */,
+			);
+			path = ModularDAPPTests;
+			sourceTree = "<group>";
+		};
+		ABF26AA22182FDF5007E3459 /* ModularDAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABF26AA32182FDF5007E3459 /* ModularDAPPUITests.m */,
+				ABF26AA52182FDF5007E3459 /* Info.plist */,
+			);
+			path = ModularDAPPUITests;
+			sourceTree = "<group>";
+		};
+		ABF26AB12182FEF8007E3459 /* ModularA(维护) */ = {
+			isa = PBXGroup;
+			children = (
+				ABF26AB22182FEF8007E3459 /* CTMediator+ModuleAActions.h */,
+				ABF26AB32182FEF8007E3459 /* CTMediator+ModuleAActions.m */,
+			);
+			name = "ModularA(维护)";
+			path = "ModularDAPP/ModularA(维护)";
+			sourceTree = "<group>";
+		};
+		ABF26AB52182FF22007E3459 /* ComponentA */ = {
+			isa = PBXGroup;
+			children = (
+				ABF26AB62182FF22007E3459 /* Controller */,
+				ABF26AB92182FF22007E3459 /* ActionsA */,
+			);
+			name = ComponentA;
+			path = ModularDAPP/ComponentA;
+			sourceTree = "<group>";
+		};
+		ABF26AB62182FF22007E3459 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABF26AB72182FF22007E3459 /* ModuleADetailController.m */,
+				ABF26AB82182FF22007E3459 /* ModuleADetailController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ABF26AB92182FF22007E3459 /* ActionsA */ = {
+			isa = PBXGroup;
+			children = (
+				ABF26ABA2182FF22007E3459 /* Target_A.m */,
+				ABF26ABB2182FF22007E3459 /* Target_A.h */,
+			);
+			path = ActionsA;
+			sourceTree = "<group>";
+		};
+		CB21FE19C4E732D2B4F87D71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C3C01324E9F96FC2D5BFFC8 /* Pods-ModularDAPP.debug.xcconfig */,
+				4406039EBA30CE7FAD78F947 /* Pods-ModularDAPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF26A7B2182FDEF007E3459 /* ModularDAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF26AA82182FDF5007E3459 /* Build configuration list for PBXNativeTarget "ModularDAPP" */;
+			buildPhases = (
+				953C37B1AE9218816202B178 /* [CP] Check Pods Manifest.lock */,
+				ABF26A782182FDEF007E3459 /* Sources */,
+				ABF26A792182FDEF007E3459 /* Frameworks */,
+				ABF26A7A2182FDEF007E3459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModularDAPP;
+			productName = ModularDAPP;
+			productReference = ABF26A7C2182FDEF007E3459 /* ModularDAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABF26A932182FDF5007E3459 /* ModularDAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF26AAB2182FDF5007E3459 /* Build configuration list for PBXNativeTarget "ModularDAPPTests" */;
+			buildPhases = (
+				ABF26A902182FDF5007E3459 /* Sources */,
+				ABF26A912182FDF5007E3459 /* Frameworks */,
+				ABF26A922182FDF5007E3459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF26A962182FDF5007E3459 /* PBXTargetDependency */,
+			);
+			name = ModularDAPPTests;
+			productName = ModularDAPPTests;
+			productReference = ABF26A942182FDF5007E3459 /* ModularDAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABF26A9E2182FDF5007E3459 /* ModularDAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF26AAE2182FDF5007E3459 /* Build configuration list for PBXNativeTarget "ModularDAPPUITests" */;
+			buildPhases = (
+				ABF26A9B2182FDF5007E3459 /* Sources */,
+				ABF26A9C2182FDF5007E3459 /* Frameworks */,
+				ABF26A9D2182FDF5007E3459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABF26AA12182FDF5007E3459 /* PBXTargetDependency */,
+			);
+			name = ModularDAPPUITests;
+			productName = ModularDAPPUITests;
+			productReference = ABF26A9F2182FDF5007E3459 /* ModularDAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF26A742182FDEF007E3459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "崔曦";
+				TargetAttributes = {
+					ABF26A7B2182FDEF007E3459 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					ABF26A932182FDF5007E3459 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ABF26A7B2182FDEF007E3459;
+					};
+					ABF26A9E2182FDF5007E3459 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = ABF26A7B2182FDEF007E3459;
+					};
+				};
+			};
+			buildConfigurationList = ABF26A772182FDEF007E3459 /* Build configuration list for PBXProject "ModularDAPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABF26A732182FDEF007E3459;
+			productRefGroup = ABF26A7D2182FDEF007E3459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF26A7B2182FDEF007E3459 /* ModularDAPP */,
+				ABF26A932182FDF5007E3459 /* ModularDAPPTests */,
+				ABF26A9E2182FDF5007E3459 /* ModularDAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF26A7A2182FDEF007E3459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF26A8C2182FDF5007E3459 /* LaunchScreen.storyboard in Resources */,
+				ABF26A892182FDF5007E3459 /* Assets.xcassets in Resources */,
+				ABF26A872182FDEF007E3459 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF26A922182FDF5007E3459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF26A9D2182FDF5007E3459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		953C37B1AE9218816202B178 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ModularDAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF26A782182FDEF007E3459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF26A842182FDEF007E3459 /* ViewController.m in Sources */,
+				ABF26AB42182FEF8007E3459 /* CTMediator+ModuleAActions.m in Sources */,
+				ABF26A8F2182FDF5007E3459 /* main.m in Sources */,
+				ABF26ABC2182FF22007E3459 /* ModuleADetailController.m in Sources */,
+				ABF26ABD2182FF22007E3459 /* Target_A.m in Sources */,
+				ABF26A812182FDEF007E3459 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF26A902182FDF5007E3459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF26A992182FDF5007E3459 /* ModularDAPPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF26A9B2182FDF5007E3459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF26AA42182FDF5007E3459 /* ModularDAPPUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABF26A962182FDF5007E3459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF26A7B2182FDEF007E3459 /* ModularDAPP */;
+			targetProxy = ABF26A952182FDF5007E3459 /* PBXContainerItemProxy */;
+		};
+		ABF26AA12182FDF5007E3459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABF26A7B2182FDEF007E3459 /* ModularDAPP */;
+			targetProxy = ABF26AA02182FDF5007E3459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABF26A852182FDEF007E3459 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF26A862182FDEF007E3459 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABF26A8A2182FDF5007E3459 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF26A8B2182FDF5007E3459 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF26AA62182FDF5007E3459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABF26AA72182FDF5007E3459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF26AA92182FDF5007E3459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C3C01324E9F96FC2D5BFFC8 /* Pods-ModularDAPP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModularDAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = David.ModularDAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABF26AAA2182FDF5007E3459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4406039EBA30CE7FAD78F947 /* Pods-ModularDAPP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModularDAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = David.ModularDAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABF26AAC2182FDF5007E3459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModularDAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = David.ModularDAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModularDAPP.app/ModularDAPP";
+			};
+			name = Debug;
+		};
+		ABF26AAD2182FDF5007E3459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModularDAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = David.ModularDAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModularDAPP.app/ModularDAPP";
+			};
+			name = Release;
+		};
+		ABF26AAF2182FDF5007E3459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModularDAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = David.ModularDAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ModularDAPP;
+			};
+			name = Debug;
+		};
+		ABF26AB02182FDF5007E3459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModularDAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = David.ModularDAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ModularDAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF26A772182FDEF007E3459 /* Build configuration list for PBXProject "ModularDAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF26AA62182FDF5007E3459 /* Debug */,
+				ABF26AA72182FDF5007E3459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF26AA82182FDF5007E3459 /* Build configuration list for PBXNativeTarget "ModularDAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF26AA92182FDF5007E3459 /* Debug */,
+				ABF26AAA2182FDF5007E3459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF26AAB2182FDF5007E3459 /* Build configuration list for PBXNativeTarget "ModularDAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF26AAC2182FDF5007E3459 /* Debug */,
+				ABF26AAD2182FDF5007E3459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF26AAE2182FDF5007E3459 /* Build configuration list for PBXNativeTarget "ModularDAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF26AAF2182FDF5007E3459 /* Debug */,
+				ABF26AB02182FDF5007E3459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABF26A742182FDEF007E3459 /* Project object */;
+}

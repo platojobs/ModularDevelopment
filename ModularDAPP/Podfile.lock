@@ -1,0 +1,20 @@
+PODS:
+  - CTMediator (25)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - CTMediator
+  - Masonry
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+    - Masonry
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: b0601cfec26d76355987f1d2ce25f0eef78639bd
+
+COCOAPODS: 1.5.3
